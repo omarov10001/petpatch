@@ -147,6 +147,11 @@ footer a { color: var(--muted); }
 .prose h2 { margin-top: 36px; font-size: 1.25rem; }
 .prose p { margin-top: 12px; color: var(--muted); }
 .prose p a { color: var(--ink); }
+.prose ul { margin-top: 12px; padding-inline-start: 22px; color: var(--muted); }
+.prose li { margin-top: 8px; }
+.prose li a, .prose li b { color: var(--ink); }
+.prose hr { margin-top: 48px; border: 0; border-top: 1px solid currentColor; opacity: .15; }
+.prose [dir=rtl] { font-family: system-ui, "Geeza Pro", "Noto Sans Arabic", sans-serif; }
 
 /* Bigger screens */
 @media (min-width: 640px) {
